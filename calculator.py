@@ -60,3 +60,5 @@ def validatenum(input):
     else:
         return intinput
         
+if __name__ = "__main__":
+    main()
