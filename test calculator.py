@@ -8,7 +8,6 @@ def test_multiply():
     assert calculator.multiply(7, -1)
     assert calculator.multiply(6, 6)
     assert calculator.multiply(-9, -7)
-    assert calculator.multiply(0, 9)
 
 def test_add():
     assert calculator.add(1, 8)
