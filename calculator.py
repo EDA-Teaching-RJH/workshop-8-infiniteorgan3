@@ -22,6 +22,7 @@ def main():
         choice = ""
         while choice not in validchoices and tries > 0:
             choice = input("Which calculator function would you like to use?\n")
+            tries -= 1
         if choice in validchoices:
             inputa = ""
             while validatenum(inputa) == False:
@@ -43,6 +44,7 @@ def main():
             attempts = 3
             while contchoice != "y" and contchoice != "n" and attempts > 0:
                 contchoice = input("Would you like to continue the program? y/n")
+                attempts -= 1
             if contchoice != "y" and contchoice != "n":
                 continuing = "n"
             else:

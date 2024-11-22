@@ -1,4 +1,5 @@
 import calculator
+import pytest
 
 def test_divide():
     assert calculator.divide(5, 0) == "Error: You cannot divide by zero."
