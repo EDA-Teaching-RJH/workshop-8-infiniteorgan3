@@ -5,7 +5,8 @@ def divide(a, b):
         return "Error: You cannot divide by zero."
 
 def multiply(a, b):
-    return a * b
+    output = a * b
+    return output
 
 def add(a, b):
     return a + b
