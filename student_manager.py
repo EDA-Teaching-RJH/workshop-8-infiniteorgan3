@@ -105,6 +105,7 @@ def validateage(age):
             return ""
         elif int(agenum) != agenum:
             print("This is an invalid age to enter, as it is a decimal value.")
+            return ""
         else:
             return agenum
         
